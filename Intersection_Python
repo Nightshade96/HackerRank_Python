@@ -54,3 +54,15 @@ Explanation
 The roll numbers of students who have both subscriptions:
  and .
 Hence, the total is  students.
+
+
+Code:
+n1  = int(input())
+English = set(map(int, input().split()))
+n2 = int(input())
+French = set(map(int, input().split()))
+
+
+TotalStudents = English.intersection(French)
+
+print(len(TotalStudents))
