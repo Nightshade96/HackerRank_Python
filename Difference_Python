@@ -53,63 +53,8 @@ Explanation
 
 The roll numbers of students who only have English newspaper subscriptions are:
  and .
-Hence, the total is  students.
+Hence, the total is  4 students.
 
-Language
-Python 3
-
-More
-123456789
-n1  = int(input())
-English = set(map(int, input().split()))
-n2 = int(input())
-French = set(map(int, input().split()))
-
-
-TotalStudents = English.difference(French)
-
-print(len(TotalStudents))
-Line: 7 Col: 35
-
-Submit Code
-
-Run Code
-
-Upload Code as File
-
-Test against custom input
-Python
-You have earned 10.00 points!
-You are now 73.57 points away from the 4th star for your python badge.
-33%146.43/220
-Congratulations
-You solved this challenge. Would you like to challenge your friends?Share on FacebookShare on TwitterShare on LinkedIn
-Next Challenge
-
-Test case 0
-
-Test case 1
-
-Test case 2
-
-Test case 3
-
-Test case 4
-
-Test case 5
-Compiler Message
-Success
-Input (stdin)
-
-Download
-9
-1 2 3 4 5 6 7 8 9
-9
-10 1 2 3 11 21 55 6 8
-Expected Output
-
-Download
-4
 
 Code: 
 n1  = int(input())
